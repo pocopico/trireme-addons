@@ -1,0 +1,28 @@
+{
+  "id": "dtbpatch",
+  "info": {
+    "author_url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-dtb",
+    "description": "Create your own device tree binary",
+    "help_url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-dtb",
+    "name": "Device tree binary",
+    "packer_url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-dtb"
+  },
+  "releases": {
+    "apollolake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "broadwell": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "broadwellnk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "broadwellnkv2": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "broadwellntbap": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "bromolow": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "denverton": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "epyc7002": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "geminilake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "geminilakenk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "purley": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "r1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "r1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "v1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json",
+    "v1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/recipes/universal.json"
+  },
+  "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/dtbpatch/rpext-index.json"
+}

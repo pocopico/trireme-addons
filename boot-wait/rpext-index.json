@@ -1,0 +1,28 @@
+{
+  "id": "boot-wait",
+  "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/rpext-index.json",
+  "info": {
+    "author_url": "https://github.com/pocopico/trireme-addons/main/disks/",
+    "name": "RedPill Bootwait",
+    "description": "Simple extension which stops the execution early waiting for the boot device to appear",
+    "packer_url": "https://github.com/RedPill-TTG/redpill-boot-wait",
+    "help_url": "https://github.com/RedPill-TTG/redpill-boot-wait"
+  },
+  "releases": {
+    "apollolake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "broadwell": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "broadwellnk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "broadwellnkv2": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "broadwellntbap": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "bromolow": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "denverton": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "epyc7002": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "geminilake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "geminilakenk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "purley": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "r1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "r1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "v1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json",
+    "v1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/boot-wait/recipes/universal.json"
+  }
+}

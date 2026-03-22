@@ -1,0 +1,13 @@
+{
+  "id": "tcrp-diag",
+  "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/rpext-index.json",
+  "info": {
+    "name": "Tinycore Diag",
+    "description": "An extension that will assist in collecting DSM diagnostic information",
+    "packer_url": "https://github.com/pocopico/trireme-addons/tree/main/tcrp-diag",
+    "help_url": "https://github.com/pocopico/trireme-addons/tcrp-diag"
+  },
+  "releases": {
+    "universal": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/releases/universal.json"
+  }
+}

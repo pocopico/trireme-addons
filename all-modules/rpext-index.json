@@ -1,0 +1,25 @@
+{
+  "id": "all-modules",
+  "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/rpext-index.json",
+  "info": {
+    "author_url": "https://github.com/pocopico",
+    "description": "Adds All modules Support",
+    "help_url": "<todo>",
+    "name": "all-modules",
+    "packer_url": "https://github.com/pocopico/trireme-addons/tree/main/all-modules"
+  },
+  "releases": {
+    "apollolake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/apollolake.json",
+    "geminilake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/geminilake.json",
+    "v1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/v1000.json",
+    "broadwellnk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/broadwellnk.json",
+    "bromolow": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/bromolow.json",
+    "broadwell": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/broadwell.json",
+    "r1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/r1000.json",
+    "denverton": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/denverton.json",
+    "purley": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/purley.json",
+    "epyc7002": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/epyc7002.json",
+    "broadwellnkv2": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/broadwellnk.json",
+    "broadwellntbap": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/broadwellnk.json"
+  }
+}

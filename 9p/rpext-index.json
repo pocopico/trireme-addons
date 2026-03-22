@@ -1,0 +1,24 @@
+{
+  "id": "tcrp-9p",
+  "info": {
+    "author_url": "https://github.com/pocopico",
+    "description": "Driver for virtio 9p",
+    "help_url": "<todo>",
+    "name": "9p",
+    "packer_url": "https://github.com/pocopico/trireme-addons/tree/main/9p"
+  },
+  "releases": {
+    "apollolake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/9p/releases/apollolake.json",
+    "geminilake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/9p/releases/geminilake.json",
+    "v1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/9p/releases/v1000.json",
+    "broadwellnk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/9p/releases/broadwellnk.json",
+    "bromolow": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/9p/releases/bromolow.json",
+    "broadwell": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/9p/releases/broadwell.json",
+    "denverton": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/9p/releases/denverton.json",
+    "r1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/9p/releases/r1000.json",
+    "broadwellnkv2": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/9p/releases/broadwellnk.json",
+    "broadwellntbap": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/9p/releases/broadwellnk.json",
+    "purley": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/9p/releases/broadwellnk.json"
+  },
+  "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/9p/rpext-index.json"
+}

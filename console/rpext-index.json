@@ -1,0 +1,28 @@
+{
+  "id": "console",
+  "info": {
+    "author_url": "https://github.com/pocopico",
+    "description": "excute console",
+    "help_url": "<todo>",
+    "name": "console",
+    "packer_url": "https://github.com/pocopico/trireme-addons/tree/main/console"
+  },
+  "releases": {
+    "apollolake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "broadwell": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "broadwellnk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "broadwellnkv2": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "broadwellntbap": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "bromolow": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "denverton": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "epyc7002": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "geminilake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "geminilakenk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "purley": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "r1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "r1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "v1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json",
+    "v1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/recipes/universal.json"
+  },
+  "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/console/rpext-index.json"
+}

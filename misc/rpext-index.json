@@ -1,0 +1,28 @@
+{
+  "id": "misc",
+  "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/rpext-index.json",
+  "info": {
+    "name": "Misc shell",
+    "description": "Misc shell",
+    "author_url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc",
+    "packer_url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc",
+    "help_url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc"
+  },
+  "releases": {
+    "apollolake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "broadwell": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "broadwellnk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "broadwellnkv2": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "broadwellntbap": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "bromolow": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "denverton": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "epyc7002": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "geminilake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "geminilakenk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "purley": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "r1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "r1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "v1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json",
+    "v1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/recipes/universal.json"
+  }
+}

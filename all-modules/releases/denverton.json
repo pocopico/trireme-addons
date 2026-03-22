@@ -1,0 +1,44 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "denverton-4.4.180.tgz",
+      "url": "https://github.com/pocopico/redpill-modules/releases/latest/download/denverton-4.4.180.tgz",
+      "sha256": "5dfce478b4212915e56fc464cbbbf75641518f0ab73d9048283e2db5265ba28c",
+      "packed": false
+    },
+    {
+      "name": "denverton-4.4.302.tgz",
+      "url": "https://github.com/pocopico/redpill-modules/releases/latest/download/denverton-4.4.302.tgz",
+      "sha256": "a56a673f7c2eac2e7ac5e1f3cc9bca58d843701b515204d1706fc9590313d303",
+      "packed": false
+    },
+    {
+      "name": "firmware.tgz",
+      "url": "https://github.com/pocopico/redpill-modules/releases/latest/download/firmware.tgz",
+      "sha256": "56f4932861b287ba9a9ed3b43f3718e84c3f9883fa5455d0207bc6b9585f3e93",
+      "packed": false
+    },
+    {
+      "name": "install_denv.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/src/install_denv.sh",
+      "sha256": "9929bd8eb20e4b107ea3fccc4e8deb377dc26d67dc35fbd234d7cb5e949fa0ce",
+      "packed": false
+    },
+    {
+      "name": "kmod",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/auxfiles/kmod",
+      "sha256": "c28321e57b8af57b04905a346b093182f74d2836ca188c5536b47e6459153938",
+      "packed": false
+    },
+    {
+      "name": "tar",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/auxfiles/tar",
+      "sha256": "fc6ee2194057f9c3a58719d130d79db7d8131dd3949d148be93eb09cffc43eb7",
+      "packed": false
+    }
+  ],
+  "scripts": {
+    "on_boot": "install_denv.sh"
+  }
+}

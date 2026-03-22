@@ -1,0 +1,27 @@
+{
+  "id": "pocopico.early-telnet",
+  "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/early-telnet/rpext-index.json",
+  "info": {
+    "name": "Early telnet start",
+    "description": "Simple extension which starts telnet early at boot",
+    "packer_url": "https://github.com/pocopico/trireme-addons/tree/main/early-telnet",
+    "help_url": "https://github.com/pocopico/trireme-addons/early-telnet"
+  },
+  "releases": {
+    "apollolake": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "broadwell": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "broadwellnk": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "broadwellnkv2": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "broadwellntbap": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "bromolow": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "denverton": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "epyc7002": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "geminilake": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "geminilakenk": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "purley": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "r1000": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "r1000nk": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "v1000": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json",
+    "v1000nk": "https://github.com/pocopico/trireme-addons/raw/main/early-telnet/recipes/universal.json"
+  }
+}

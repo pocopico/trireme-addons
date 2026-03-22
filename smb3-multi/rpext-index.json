@@ -1,0 +1,27 @@
+{
+  "id": "smb3-multi",
+  "info": {
+    "description": "Simple extension to enable smb3 multi channel on boot",
+    "help_url": "https://github.com/pocopico/trireme-addons/smb3-multi",
+    "name": "smb3 multi channel enabler",
+    "packer_url": "https://github.com/pocopico/trireme-addons/tree/main/smb3-multi"
+  },
+  "releases": {
+    "apollolake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "broadwell": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "broadwellnk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "broadwellnkv2": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "broadwellntbap": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "bromolow": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "denverton": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "epyc7002": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "geminilake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "geminilakenk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "purley": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "r1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "r1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "v1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json",
+    "v1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/recipes/universal.json"
+  },
+  "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/smb3-multi/rpext-index.json"
+}

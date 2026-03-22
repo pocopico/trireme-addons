@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "name": "install.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/tcrp-modules/master/cgetty/releases/install.sh",
+      "sha256": "1ae514a785b4fd27391d6a2db1f46c7fe77df1bb4eae0f0bd60b4e7762ea01ee",
+      "packed": false
+    },
+    {
+      "name": "cgetty.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/tcrp-modules/master/cgetty/releases/cgetty.tgz",
+      "sha256": "5fb71e04e60a75a6e84dcd05058dda987486ef12d63c2c93c3f3a9ecb90280df",
+      "packed": false
+    }
+  ],
+  "scripts": {
+    "on_boot": "install.sh",
+    "on_os_load": "install.sh"
+  }
+}

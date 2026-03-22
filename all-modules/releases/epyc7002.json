@@ -1,0 +1,32 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "epyc7002-5.10.55.tgz",
+      "url": "https://github.com/pocopico/redpill-modules/releases/latest/download/epyc7002-5.10.55.tgz",
+      "sha256": "f9ad567935d1e3c8e39a27191f67fff3b808a2505d1f37fec70fe825a81c0996",
+      "packed": false
+    },
+    {
+      "name": "firmware.tgz",
+      "url": "https://github.com/pocopico/redpill-modules/releases/latest/download/firmware.tgz",
+      "sha256": "56f4932861b287ba9a9ed3b43f3718e84c3f9883fa5455d0207bc6b9585f3e93",
+      "packed": false
+    },
+    {
+      "name": "install.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/src/install.sh",
+      "sha256": "194d671bc1e59677453becbfc4694c7a57a2112a54e398e51e081f2a5bf0b1af",
+      "packed": false
+    },
+    {
+      "name": "kmod",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/auxfiles/kmod",
+      "sha256": "c28321e57b8af57b04905a346b093182f74d2836ca188c5536b47e6459153938",
+      "packed": false
+    }
+  ],
+  "scripts": {
+    "on_boot": "install.sh"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pocopico.raspbi-pill",
+  "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/raspbi-pill/rpext-index.json",
+  "info": {
+    "name": "Early telnet start",
+    "description": "Simple extension which starts telnet early at boot",
+    "packer_url": "https://github.com/pocopico/trireme-addons/tree/main/raspbi-pill",
+    "help_url": "https://github.com/pocopico/trireme-addons/raspbi-pill"
+  },
+  "releases": {
+    "apollolake": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "broadwell": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "broadwellnk": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "broadwellnkv2": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "broadwellntbap": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "bromolow": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "denverton": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "epyc7002": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "geminilake": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "geminilakenk": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "purley": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "r1000": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "r1000nk": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "v1000": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json",
+    "v1000nk": "https://github.com/pocopico/trireme-addons/raw/main/raspbi-pill/recipes/universal.json"
+  }
+}

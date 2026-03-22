@@ -1,0 +1,38 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "geminilake-4.4.180.tgz",
+      "url": "https://github.com/pocopico/redpill-modules/releases/latest/download/geminilake-4.4.180.tgz",
+      "sha256": "4ac95581933fd067d36e7d2a1ed2f3721202e9a9684e92977a924a7484c48834",
+      "packed": false
+    },
+    {
+      "name": "geminilake-4.4.302.tgz",
+      "url": "https://github.com/pocopico/redpill-modules/releases/latest/download/geminilake-4.4.302.tgz",
+      "sha256": "7e012a48aa134c7179c11955e7ece0fb7fe928b4d8e8541e34c408287a39c9b5",
+      "packed": false
+    },
+    {
+      "name": "firmware.tgz",
+      "url": "https://github.com/pocopico/redpill-modules/releases/latest/download/firmware.tgz",
+      "sha256": "56f4932861b287ba9a9ed3b43f3718e84c3f9883fa5455d0207bc6b9585f3e93",
+      "packed": false
+    },
+    {
+      "name": "install.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/src/install.sh",
+      "sha256": "194d671bc1e59677453becbfc4694c7a57a2112a54e398e51e081f2a5bf0b1af",
+      "packed": false
+    },
+    {
+      "name": "kmod",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/auxfiles/kmod",
+      "sha256": "c28321e57b8af57b04905a346b093182f74d2836ca188c5536b47e6459153938",
+      "packed": false
+    }
+  ],
+  "scripts": {
+    "on_boot": "install.sh"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "powersched",
+  "info": {
+    "author_url": "https://github.com/pocopico",
+    "description": "Adds Driver for PC-style 'CMOS' RTCs Support",
+    "help_url": "<todo>",
+    "name": "powersched",
+    "packer_url": "https://github.com/pocopico/trireme-addons/tree/main/powersched"
+  },
+  "releases": {
+    "apollolake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "broadwell": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "broadwellnk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "broadwellnkv2": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "broadwellntbap": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "bromolow": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "denverton": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "epyc7002": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "geminilake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "geminilakenk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "purley": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "r1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "r1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "v1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json",
+    "v1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/releases/ds1019p_42218.json"
+  },
+  "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/powersched/rpext-index.json"
+}

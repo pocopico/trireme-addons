@@ -1,0 +1,28 @@
+{
+  "id": "thethorgroup.virtio",
+  "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/rpext-index.json",
+  "info": {
+    "name": "VirtIO",
+    "description": "Adds VirtIO support for fast network/PCI/SCSI/network/console paravirtualization under QEmu (Proxmox, VirtualBox, virsh, and similar)",
+    "author_url": "https://www.linux-kvm.org/page/Virtio",
+    "packer_url": "https://github.com/RedPill-TTG/virtio",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "apollolake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "broadwell": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "broadwellnk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "broadwellnkv2": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "broadwellntbap": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "bromolow": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "denverton": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "epyc7002": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "geminilake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "geminilakenk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "purley": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "r1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "r1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "v1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json",
+    "v1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/virtio/recipes/geminilake.json"
+  }
+}
