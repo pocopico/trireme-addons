@@ -2,15 +2,15 @@
   "mod_version": "v1",
   "files": [
     {
-      "name": "broadwellnk-4.4.180.tgz",
-      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/broadwellnk-4.4.180.tgz",
-      "sha256": "f5a75110d4df2624cdd785a56cb9aeb3f2cf74e9daab31057febdc386204fdff",
+      "name": "v1000nk-7.2-5.10.55.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/v1000nk-7.2-5.10.55.tgz",
+      "sha256": "02e55957a078f15135994625007de47cc4a97de427f9ee957e0cf31bd20c6931",
       "packed": false
     },
     {
-      "name": "broadwellnk-4.4.302.tgz",
-      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/broadwellnk-4.4.302.tgz",
-      "sha256": "f5fc4e36cfaf5caff12ce28715762aacefa2f876f7076541ef774db0aac8a488",
+      "name": "v1000nk-7.3-5.10.55.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/v1000nk-7.3-5.10.55.tgz",
+      "sha256": "5892631c6c968bf145f369a056e26d5d7d90ce076e98a0e766590c92340280ac",
       "packed": false
     },
     {

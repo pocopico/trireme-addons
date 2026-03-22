@@ -3,20 +3,20 @@
   "files": [
     {
       "name": "v1000-4.4.180.tgz",
-      "url": "https://github.com/pocopico/redpill-modules/releases/latest/download/v1000-4.4.180.tgz",
-      "sha256": "f817777ec9216ae3650bb32ddaddd2810d403032cbc0e6fbb031d2522eff88e3",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/v1000-4.4.180.tgz",
+      "sha256": "49e45ca81b219d41b03a3547c23d15ed02bf8341eb4bce8d58b9efa8c02e91a0",
       "packed": false
     },
     {
       "name": "v1000-4.4.302.tgz",
-      "url": "https://github.com/pocopico/redpill-modules/releases/latest/download/v1000-4.4.302.tgz",
-      "sha256": "36c38521ff1320e9fb85d76b9660fbb789df0c8c0ff185dc22f9fc5e506b2a79",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/v1000-4.4.302.tgz",
+      "sha256": "1a9983bdca5f6c7bfcc7528b307caeacd9e60ba61fce1468f65976d60193a7a4",
       "packed": false
     },
     {
       "name": "firmware.tgz",
-      "url": "https://github.com/pocopico/redpill-modules/releases/latest/download/firmware.tgz",
-      "sha256": "56f4932861b287ba9a9ed3b43f3718e84c3f9883fa5455d0207bc6b9585f3e93",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/firmware.tgz",
+      "sha256": "658acdb1b3c13d8f511bc54d076a97dea93400321dbc16b5bc4e153fc215700f",
       "packed": false
     },
     {

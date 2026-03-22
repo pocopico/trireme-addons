@@ -11,15 +11,18 @@
   "releases": {
     "apollolake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/apollolake.json",
     "geminilake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/geminilake.json",
+    "geminilakenk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/geminilakenk.json",
     "v1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/v1000.json",
+    "v1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/v1000nk.json",
     "broadwellnk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/broadwellnk.json",
+    "broadwellnkv2": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/broadwellnkv2.json",
+    "broadwellnkbap": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/broadwellntbap.json",
     "bromolow": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/bromolow.json",
     "broadwell": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/broadwell.json",
     "r1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/r1000.json",
+    "r1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/r1000.json",
     "denverton": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/denverton.json",
     "purley": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/purley.json",
-    "epyc7002": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/epyc7002.json",
-    "broadwellnkv2": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/broadwellnk.json",
-    "broadwellntbap": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/broadwellnk.json"
+    "epyc7002": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/releases/epyc7002.json"
   }
 }

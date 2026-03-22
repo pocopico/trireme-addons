@@ -4,13 +4,13 @@
     {
       "name": "broadwellnk-4.4.180.tgz",
       "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/broadwellnk-4.4.180.tgz",
-      "sha256": "f5a75110d4df2624cdd785a56cb9aeb3f2cf74e9daab31057febdc386204fdff",
+      "sha256": "b6fa26bca41a0f3f373ec9863bdc232bfcc9c8fe5907e68b92d891ac468e5a4d",
       "packed": false
     },
     {
       "name": "broadwellnk-4.4.302.tgz",
       "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/broadwellnk-4.4.302.tgz",
-      "sha256": "f5fc4e36cfaf5caff12ce28715762aacefa2f876f7076541ef774db0aac8a488",
+      "sha256": "e98d1f47a941bf0a476a571bfa66adca957fd6eee910d875e2a95d2a29cd9ce1",
       "packed": false
     },
     {

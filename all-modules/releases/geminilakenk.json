@@ -2,15 +2,15 @@
   "mod_version": "v1",
   "files": [
     {
-      "name": "broadwellnk-4.4.180.tgz",
-      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/broadwellnk-4.4.180.tgz",
-      "sha256": "f5a75110d4df2624cdd785a56cb9aeb3f2cf74e9daab31057febdc386204fdff",
+      "name": "geminilakenk-7.2-5.10.55.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/geminilakenk-7.2-5.10.55.tgz",
+      "sha256": "130a5792228be37d5c9880e09d14fb0eabceb806e518a88396870573dace81b9",
       "packed": false
     },
     {
-      "name": "broadwellnk-4.4.302.tgz",
-      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/broadwellnk-4.4.302.tgz",
-      "sha256": "f5fc4e36cfaf5caff12ce28715762aacefa2f876f7076541ef774db0aac8a488",
+      "name": "geminilakenk-7.3-5.10.55.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/geminilakenk-7.3-5.10.55.tgz",
+      "sha256": "41aeb279929426292270c1fb15c848de46f0f56c1fa9bbc6a978346e26d85a70",
       "packed": false
     },
     {
