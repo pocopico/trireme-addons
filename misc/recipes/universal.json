@@ -55,6 +55,12 @@
       "packed": false
     },
     {
+      "name": "web_index.html",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/web_index.html",
+      "sha256": "bb3fa8b994707cd75f917432287cd664f513b84779e0db716e4b5014aa4b7b57",
+      "packed": false
+    },
+    {
       "name": "pciids",
       "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/pciids",
       "sha256": "a32808aca2edec084ba0bd6cab84a13591c91053c8b160d5d3279b2abca88199",
