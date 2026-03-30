@@ -26,7 +26,8 @@
     }
   ],
   "scripts": {
-    "on_boot": "install.sh",
-    "on_os_load": "install.sh"
+    "early": "install.sh",
+    "patches": "install.sh",
+    "late": "install.sh"
   }
 }

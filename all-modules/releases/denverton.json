@@ -39,6 +39,7 @@
     }
   ],
   "scripts": {
-    "on_boot": "install_denv.sh"
+    "early": "install.sh",
+    "modules": "install.sh"
   }
 }

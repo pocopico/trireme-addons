@@ -33,6 +33,7 @@
     }
   ],
   "scripts": {
-    "on_boot": "install.sh"
+    "early": "install.sh",
+    "modules": "install.sh"
   }
 }
