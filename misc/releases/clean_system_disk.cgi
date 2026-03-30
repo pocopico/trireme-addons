@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+
+echo -ne "Content-type: text/plain; charset=\"UTF-8\"\r\n\r\n"
+
+if [ -b /dev/md0 ]; then
+  mkdir -p /mnt/md0
+  mount /dev/md0 /mnt/md0/
+  rm -rf /mnt/md0/@autoupdate/*
+  rm -rf /mnt/md0/upd@te/*
+  rm -rf /mnt/md0/.log.junior/*
+  umount /mnt/md0/
+  rm -rf /mnt/md0/
+  echo '{"success": true}'
+else
+  echo '{"success": false}'
+fi
