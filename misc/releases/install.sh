@@ -40,25 +40,10 @@ echo "Starting DUFS, listening on port: 7304"
 
 # [CREATE][failed] Raidtool initsys
 echo -n "Patching scemd....."
-SO_FILE="/usr/syno/bin/scemd"
-
-    if [ $(ps -ef |grep -v grep |grep scemd |wc -l) -gt 0 ] ; then
-        while [ $(ps -ef |grep scemd |grep -v grep |wc -l) -gt 0 ]
-        do
-        killall scemd && sleep 1
-        done
-        [ ! -f "${SO_FILE}.bak" ] && cp -pf "${SO_FILE}" "${SO_FILE}.bak"
-        cp -pf "${SO_FILE}" "${SO_FILE}.tmp" && /exts/misc/xxd -c "$(/exts/misc/xxd -p "${SO_FILE}.tmp" 2>/dev/null | wc -c)" -p "${SO_FILE}.tmp" 2>/dev/null |  /exts/misc/sed "s/2d6520302e39/2d6520312e32/" | /exts/misc/xxd -r -p >"${SO_FILE}" 2>/dev/null
-        if [ ! -z ${SO_FILE} ]; then
-        scemd &
-        else
-        echo "Patching failed, rolling back"
-        cp ${SO_FILE}.bak ${SO_FILE}
-        echo "OK"
-        fi
-    else
-        echo "Fail, scemd not running"
-    fi    
+SO_FILE="/usr/syno/bin/scemd"      
+[ ! -f "${SO_FILE}.bak" ] && cp -pf "${SO_FILE}" "${SO_FILE}.bak"
+cp -pf "${SO_FILE}" "${SO_FILE}.tmp" 
+/exts/misc/xxd -c "$(/exts/misc/xxd -p "${SO_FILE}.tmp" 2>/dev/null | wc -c)" -p "${SO_FILE}.tmp" 2>/dev/null |  /exts/misc/sed "s/2d6520302e39/2d6520312e32/" | /exts/misc/xxd -r -p >"${SO_FILE}" 2>/dev/null       
 rm -f "${SO_FILE}.tmp"
 
 #Removing root password 
