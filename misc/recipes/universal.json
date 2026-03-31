@@ -50,7 +50,7 @@
     },
     {
       "name": "xxd",
-      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/jq",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/xxd",
       "sha256": "8870df5417f17e2bf102856dba471a2fb695c41e3b85e295d64ece95b1ba3c56",
       "packed": false
     },
