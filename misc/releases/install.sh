@@ -61,6 +61,10 @@ SO_FILE="/usr/syno/bin/scemd"
     fi    
 rm -f "${SO_FILE}.tmp"
 
+#Removing root password 
+/exts/misc/sed -i 's/^root:x:0:0/root::0:0/' /etc/passwd
+
+
 fi
 
 ########## Recovery mode related setup, including webman pages and motd
