@@ -142,6 +142,15 @@ SED_PATH='/tmpRoot/usr/bin/sed'
 mkdir -vp /tmpRoot/usr/local/share
 cp -vpf /usr/local/share/pci.ids.gz /tmpRoot/usr/local/share/pci.ids.gz
 
+# perform synoinfo.conf updates
+echo "Setting synoinfo.conf values"
+for KEY in $(cat "/exts/synoinfo.conf" 2>/dev/null | cut -d= -f1); do
+  [ -z "${KEY}" ] && continue
+  VALUE="$(/bin/get_key_value /exts/synoinfo.conf "${KEY}")"
+  echo "Setting ${KEY} to ${VALUE}"
+  for F in "/tmpRoot/etc/synoinfo.conf" "/tmpRoot/etc.defaults/synoinfo.conf"; do /bin/set_key_value "${F}" "${KEY}" "${VALUE}"; done
+done
+
 ######## CPU performance scaling
 
   mount -t sysfs sysfs /sys

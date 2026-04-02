@@ -3,7 +3,7 @@
     {
       "name": "install.sh",
       "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/install.sh",
-      "sha256": "5a42ea3874abc1abdb2f5ccbbf17e3f7a75ef20b67534e00d8195f081e9dd69e",
+      "sha256": "95c3a50bd0da28edc5e0598bbc1f1e2377226480267f2aec2be89fc1ab204c9e",
       "packed": false
     },
     {
@@ -58,6 +58,12 @@
       "name": "web_index.html",
       "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/web_index.html",
       "sha256": "bb3fa8b994707cd75f917432287cd664f513b84779e0db716e4b5014aa4b7b57",
+      "packed": false
+    },
+    {
+      "name": "pci.ids.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/pci.ids.tgz",
+      "sha256": "acfd85dad2550227b27054bd24dd87ca55662c56d54126854f44762456ebd260",
       "packed": false
     },
     {
