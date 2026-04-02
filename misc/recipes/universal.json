@@ -61,8 +61,8 @@
       "packed": false
     },
     {
-      "name": "pci.ids.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/pci.ids.tgz",
+      "name": "pci.ids.gz",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/pci.ids.gz",
       "sha256": "acfd85dad2550227b27054bd24dd87ca55662c56d54126854f44762456ebd260",
       "packed": false
     },
