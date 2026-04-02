@@ -23,6 +23,9 @@ echo "Invalid option specified expected at least on of the following : early/lat
 exit 0
 fi
 
+GKV=$([ -x "/usr/syno/bin/synogetkeyvalue" ] && echo "/usr/syno/bin/synogetkeyvalue" || echo "/bin/get_key_value")
+SKV=$([ -x "/usr/syno/bin/synosetkeyvalue" ] && echo "/usr/syno/bin/synosetkeyvalue" || echo "/bin/set_key_value")
+
 if [ ${1} = "early" ]; then
 echo "Entering Early Stage....."
 
@@ -146,9 +149,9 @@ cp -vpf /usr/local/share/pci.ids.gz /tmpRoot/usr/local/share/pci.ids.gz
 echo "Setting synoinfo.conf values"
 for KEY in $(cat "/exts/synoinfo.conf" 2>/dev/null | cut -d= -f1); do
   [ -z "${KEY}" ] && continue
-  VALUE="$(/bin/get_key_value /exts/synoinfo.conf "${KEY}")"
+  VALUE="$("${GKV}" /exts/synoinfo.conf "${KEY}")"
   echo "Setting ${KEY} to ${VALUE}"
-  for F in "/tmpRoot/etc/synoinfo.conf" "/tmpRoot/etc.defaults/synoinfo.conf"; do /bin/set_key_value "${F}" "${KEY}" "${VALUE}"; done
+  for F in "/tmpRoot/etc/synoinfo.conf" "/tmpRoot/etc.defaults/synoinfo.conf"; do "${SKV}" "${F}" "${KEY}" "${VALUE}"; done
 done
 
 ######## CPU performance scaling

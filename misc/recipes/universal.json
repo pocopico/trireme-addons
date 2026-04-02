@@ -3,7 +3,7 @@
     {
       "name": "install.sh",
       "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/install.sh",
-      "sha256": "95c3a50bd0da28edc5e0598bbc1f1e2377226480267f2aec2be89fc1ab204c9e",
+      "sha256": "661bc91a187bbebb549141dbef0a9eb7201b013f35fe48668bec77a58f0be283",
       "packed": false
     },
     {
@@ -16,6 +16,12 @@
       "name": "tcrp-discover",
       "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/tcrp-discover",
       "sha256": "6c5849f21accf0841fa4a90540a5a434ff8fbab4bb4462688b7f17af15eec070",
+      "packed": false
+    },
+    {
+      "name": "dufs",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/dufs",
+      "sha256": "15c44dcc5c8c1bcb72e0337af99233991e557b0b789f57113552d8501f38f98c",
       "packed": false
     },
     {
