@@ -2,14 +2,14 @@
   "mod_version": "v1",
   "files": [
     {
-      "name": "broadwellnk-4.4.180.tgz",
-      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/broadwellnk-4.4.180.tgz",
+      "name": "purley-4.4.180.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/purley-4.4.180.tgz",
       "sha256": "b6fa26bca41a0f3f373ec9863bdc232bfcc9c8fe5907e68b92d891ac468e5a4d",
       "packed": false
     },
     {
-      "name": "broadwellnk-4.4.302.tgz",
-      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/broadwellnk-4.4.302.tgz",
+      "name": "purley-4.4.302.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/purley-4.4.302.tgz",
       "sha256": "e98d1f47a941bf0a476a571bfa66adca957fd6eee910d875e2a95d2a29cd9ce1",
       "packed": false
     },
