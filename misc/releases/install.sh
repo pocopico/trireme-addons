@@ -34,12 +34,16 @@ echo "Entering Early Stage....."
       chmod 755 "/usr/bin/${file}"
     done
 
-echo "Starting ttyd, listening on port: 7681"
+echo -n "Starting ttyd, listening on port: 7681"
 [ $(netstat -an  |grep 7681 |wc -l) -gt 1 ] || /exts/misc/ttyd -W login -f root > /dev/null 2>&1 &
-echo "Starting tcrp-discover"
+[ $(netstat -an  |grep 7681 |wc -l) -gt 1 ] && echo "-> ttyd started" || echo "-> ttyd start failed"
+echo -n "Starting tcrp-discover"
 [ $(netstat -an  |grep 7780 |wc -l) -gt 1 ] || /exts/misc/tcrp-discover > /dev/null 2>&1 &
-echo "Starting DUFS, listening on port: 7304"
+[ $(netstat -an  |grep 7780 |wc -l) -gt 1 ] && echo "-> tcrp-discover started" || echo "-> tcrp-discover start failed"
+echo -n "Starting DUFS, listening on port: 7304"
 [ $(netstat -an  |grep 7304 |wc -l) -gt 1 ] || /exts/misc/dufs -A -p 7304 / >/dev/null 2>&1 & 
+[ $(netstat -an  |grep 7304 |wc -l) -gt 1 ] && echo "-> dufs started" || echo "-> dufs start failed"
+
 
 # [CREATE][failed] Raidtool initsys
 echo -n "Patching scemd....."
@@ -57,7 +61,7 @@ fi
 
 ########## Recovery mode related setup, including webman pages and motd
 
-if [ $(grep -q "recovery" /proc/cmdline) ]; then
+if grep -q "recovery" /proc/cmdline ; then
 echo "Recovery mode detected"
 
    for file in "/exts/misc/*cgi" ; do
