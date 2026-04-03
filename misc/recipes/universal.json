@@ -3,7 +3,7 @@
     {
       "name": "install.sh",
       "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/install.sh",
-      "sha256": "da947567c720bdd158679400b937b89b3ec07c4f12f59879605d69b4ee96ab16",
+      "sha256": "fb6cb5be059baa64534b50cb23c1393fe9f21cabb86acefbf7ed3608a3caf035",
       "packed": false
     },
     {
@@ -39,7 +39,7 @@
     {
       "name": "webman.cgi.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/misc/releases/webman.cgi.tgz",
-      "sha256": "349e1aa257e233fe493c563a1ae78bd3da307b19d7034bf61ca0928d42bc754f",
+      "sha256": "658431d45bc4a4fb5921b01c40498851c8ea83d153944ff41ade46a3984b82ac",
       "packed": true
     },
     {

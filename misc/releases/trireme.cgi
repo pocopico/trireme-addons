@@ -429,7 +429,7 @@ cat <<EOF
                             <span class="nav-link-title">Clean system disks</span>
                             <span class="nav-link-desc">Removes update data from system disk to allow re-install</span>
                         </a>
-                        <a href="http://$local_ip:5000/webman/web_install.html" class="nav-link">
+                        <a href="http://$local_ip:5000/web_install.html" class="nav-link">
                             <span class="nav-link-title">Start System Recovery</span>
                             <span class="nav-link-desc">Starts the DSM recovery of an unbootable system</span>
                         </a>

@@ -64,8 +64,8 @@ fi
 if grep -q "recovery" /proc/cmdline ; then
 echo "Recovery mode detected"
 
-   for file in "/exts/misc/*cgi" ; do
-     [ -f "${file}" ] && cp -pf "${file}" "/usr/syno/web/webman/${file}"
+   for file in /exts/misc/*cgi ; do
+     [ -f "${file}" ] && echo "Copying ${file} to /usr/syno/web/webman" && cp -pf "${file}" "/usr/syno/web/webman/"
    done
    
    if [ ! -f "/usr/syno/web/web_install.html" ]; then
