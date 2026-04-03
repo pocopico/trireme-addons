@@ -3,19 +3,19 @@
   "files": [
     {
       "name": "broadwellnk-4.4.180.tgz",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/broadwellnk-4.4.180.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/broadwellnk-4.4.180.tgz",
       "sha256": "b6fa26bca41a0f3f373ec9863bdc232bfcc9c8fe5907e68b92d891ac468e5a4d",
       "packed": false
     },
     {
       "name": "broadwellnk-4.4.302.tgz",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/broadwellnk-4.4.302.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/broadwellnk-4.4.302.tgz",
       "sha256": "e98d1f47a941bf0a476a571bfa66adca957fd6eee910d875e2a95d2a29cd9ce1",
       "packed": false
     },
     {
       "name": "firmware.tgz",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/firmware.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/firmware.tgz",
       "sha256": "658acdb1b3c13d8f511bc54d076a97dea93400321dbc16b5bc4e153fc215700f",
       "packed": false
     },

@@ -9,7 +9,7 @@ command="$1"
 platform="$2"
 
 if [ -z "$platform" ] ; then
-platforms="apollolake broadwell broadwellnk bromolow denverton epyc7002 geminilake r1000 v1000"
+platforms="apollolake broadwell broadwellnk broadwellnkv2 broadwellntbap bromolow denverton epyc7002 geminilake geminilakenk r1000 r1000nk v1000 v1000nk"
 else
 platforms="$platform"
 fi

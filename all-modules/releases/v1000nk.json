@@ -3,19 +3,19 @@
   "files": [
     {
       "name": "v1000nk-7.2-5.10.55.tgz",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/v1000nk-7.2-5.10.55.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/v1000nk-7.2-5.10.55.tgz",
       "sha256": "02e55957a078f15135994625007de47cc4a97de427f9ee957e0cf31bd20c6931",
       "packed": false
     },
     {
       "name": "v1000nk-7.3-5.10.55.tgz",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/v1000nk-7.3-5.10.55.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/v1000nk-7.3-5.10.55.tgz",
       "sha256": "5892631c6c968bf145f369a056e26d5d7d90ce076e98a0e766590c92340280ac",
       "packed": false
     },
     {
       "name": "firmware.tgz",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/firmware.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/firmware.tgz",
       "sha256": "658acdb1b3c13d8f511bc54d076a97dea93400321dbc16b5bc4e153fc215700f",
       "packed": false
     },

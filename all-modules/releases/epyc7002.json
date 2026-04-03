@@ -3,25 +3,25 @@
   "files": [
     {
       "name": "epyc7002-7.1-5.10.55.tgz",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/epyc7002-7.1-5.10.55.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/epyc7002-7.1-5.10.55.tgz",
       "sha256": "403fe6ecb7b07f072e13f2108571594fe295587a921cdf8bedc8af637e6ca2ff",
       "packed": false
     },
     {
       "name": "epyc7002-7.2-5.10.55.tgz",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/epyc7002-7.2-5.10.55.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/epyc7002-7.2-5.10.55.tgz",
       "sha256": "4a3732ffd1ac409a028a17620cf1705d145bacd46d01c1f552ee8a3afa99319e",
       "packed": false
     },
     {
       "name": "epyc7002-7.3-5.10.55.tgz",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/epyc7002-7.3-5.10.55.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/epyc7002-7.3-5.10.55.tgz",
       "sha256": "b5d4c21da44b1b279fa1aceef86e91a4e76208d27eb7e2505956597bef857b97",
       "packed": false
     },
     {
       "name": "firmware.tgz",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/firmware.tgz",
+      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/firmware.tgz",
       "sha256": "658acdb1b3c13d8f511bc54d076a97dea93400321dbc16b5bc4e153fc215700f",
       "packed": false
     },
