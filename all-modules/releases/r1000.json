@@ -3,19 +3,19 @@
   "files": [
     {
       "name": "r1000-4.4.180.tgz",
-      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/r1000-4.4.180.tgz",
+      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/r1000-4.4.180.tgz",
       "sha256": "18863fc7f894b956dd426392926fed60bb45c21c25df02a72b99dc1a4f645230",
       "packed": false
     },
     {
       "name": "r1000-4.4.302.tgz",
-      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/r1000-4.4.302.tgz",
+      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/r1000-4.4.302.tgz",
       "sha256": "c9af8e1d88ea6c759f5b112db2f865676a7c2b95be85d2c593aae03751705dec",
       "packed": false
     },
     {
       "name": "firmware.tgz",
-      "url": "https://github.com/pocopico/trireme-modules/releases/latest/download/firmware.tgz",
+      "url": "https://raw.githubcontent.com/pocopico/trireme-modules/releases/latest/download/firmware.tgz",
       "sha256": "658acdb1b3c13d8f511bc54d076a97dea93400321dbc16b5bc4e153fc215700f",
       "packed": false
     },
