@@ -8,6 +8,6 @@
     "help_url": "https://github.com/pocopico/trireme-addons/tcrp-diag"
   },
   "releases": {
-    "universal": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/releases/universal.json"
+    "universal": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json"
   }
 }

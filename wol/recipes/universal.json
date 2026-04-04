@@ -2,19 +2,19 @@
   "files": [
     {
       "name": "ethtool",
-      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/disks/releases/ethtool",
-      "sha256": "d37cf99cdb543c2598477193f149506db0a6f9f7f17357b7fc15c67dd0354c2a",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/wol/releases/ethtool",
+      "sha256": "35199435422a4213582efe878bd3997b00be4b9078b6886d0c2fe57bbf02b41f",
       "packed": false
     },
     {
       "name": "install.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/disks/releases/install.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/wol/releases/install.sh",
       "sha256": "b82baffa573d694df045adee6e0cd0aa753bb9234992ecb34e904ab06cb1bcd2",
       "packed": false
     }
   ],
   "scripts": {
-    "on_boot": "install.sh",
-    "on_os_load": "install.sh"
+    "early": "install.sh",
+    "late": "install.sh"
   }
 }
