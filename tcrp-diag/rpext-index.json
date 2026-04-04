@@ -8,6 +8,20 @@
     "help_url": "https://github.com/pocopico/trireme-addons/tcrp-diag"
   },
   "releases": {
-    "universal": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json"
+    "apollolake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "broadwell": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "broadwellnk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "broadwellnkv2": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "broadwellntbap": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "bromolow": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "denverton": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "epyc7002": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "geminilake": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "geminilakenk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "purley": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "r1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "r1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "v1000": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json",
+    "v1000nk": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/recipes/universal.json"
   }
 }
