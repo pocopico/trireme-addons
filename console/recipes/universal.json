@@ -2,13 +2,13 @@
   "files": [
     {
       "name": "install.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/tcrp-modules/master/console/releases/install.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/master/console/releases/install.sh",
       "sha256": "1ae514a785b4fd27391d6a2db1f46c7fe77df1bb4eae0f0bd60b4e7762ea01ee",
       "packed": false
     },
     {
       "name": "cgetty.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/tcrp-modules/master/console/releases/cgetty.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/master/console/releases/cgetty.tgz",
       "sha256": "5fb71e04e60a75a6e84dcd05058dda987486ef12d63c2c93c3f3a9ecb90280df",
       "packed": false
     }

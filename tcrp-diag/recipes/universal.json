@@ -2,19 +2,19 @@
   "files": [
     {
       "name": "tcrp-diag.sh",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-addons/raw/main/tcrp-diag/releases/tcrp-diag.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/releases/tcrp-diag.sh",
       "sha256": "d7b4320d2092fa72086dbd7683f9c91e1aaafe5c01a3b0e2bbcd1d6a930a3e72",
       "packed": false
     },
     {
       "name": "tcrp-diagd.sh",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-addons/raw/main/tcrp-diag/releases/tcrp-diagd.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/releases/tcrp-diagd.sh",
       "sha256": "43008e6db046b4c8432f569d77683def9c5d59c5337a5aeecfbea9bae2e4ce43",
       "packed": false
     },
     {
       "name": "auxfiles.tgz",
-      "url": "https://raw.githubcontent.com/pocopico/trireme-addons/raw/main/tcrp-diag/releases/auxfiles.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/tcrp-diag/releases/auxfiles.tgz",
       "sha256": "7ac20ba2b1fa4431ad2348132cfa9be29e5006543e3c3b8c45b2ed951d2edc9c",
       "packed": true
     }
