@@ -10,8 +10,9 @@ LINUX_VER="$(uname -r | cut -d '+' -f1)"
 
 function prepare_eudev() {
 echo "Copying kmod,tar to /bin/"
-/bin/cp -v kmod  /bin/       ; chmod 700 /bin/kmod
+/bin/cp -rpfv kmod  /bin/       ; chmod 755 /bin/kmod
 #/bin/cp -v tar  /bin/        ; chmod 700 /bin/tar
+[ ${TARGET_PLATFORM} = "denverton" ] ; /bin/cp -rpvf tar  /bin/  && chmod 755 /bin/tar
 echo "link depmod to kmod"
 ln -s /bin/kmod /usr/sbin/depmod
 echo "Extracting modules"
@@ -38,7 +39,6 @@ done
 done 
 
 }
-
 
 getvars
 prepare_eudev
