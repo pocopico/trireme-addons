@@ -20,9 +20,9 @@
       "packed": false
     },
     {
-      "name": "install_denv.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/src/install_denv.sh",
-      "sha256": "9929bd8eb20e4b107ea3fccc4e8deb377dc26d67dc35fbd234d7cb5e949fa0ce",
+      "name": "install.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/trireme-addons/main/all-modules/src/install.sh",
+      "sha256": "e12abfad190aadcc0d051cf61034c6b092231d92381643444ea9bb7ff8547cd7",
       "packed": false
     },
     {
