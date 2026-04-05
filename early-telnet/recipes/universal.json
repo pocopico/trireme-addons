@@ -8,6 +8,6 @@
     }
   ],
   "scripts": {
-    "on_boot": "early-telnet.sh"
+    "early": "early-telnet.sh"
   }
 }

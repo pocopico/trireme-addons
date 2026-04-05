@@ -30,7 +30,7 @@
     "rtc-cmos.ko": ""
   },
   "scripts": {
-    "on_boot": "check-rtc-cmos.sh",
-    "on_os_load": "install-powersched.sh"
+    "early": "check-rtc-cmos.sh",
+    "late": "install-powersched.sh"
   }
 }

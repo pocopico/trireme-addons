@@ -14,7 +14,7 @@
     }
   ],
   "scripts": {
-    "on_boot": "install-nvme-cache.sh",
-    "on_os_load": "install-nvme-cache.sh"
+    "early": "install-nvme-cache.sh",
+    "late": "install-nvme-cache.sh"
   }
 }
