@@ -6,6 +6,8 @@
 function getvars() {
 TARGET_PLATFORM="$(uname -u | cut -d '_' -f2)"
 LINUX_VER="$(uname -r | cut -d '+' -f1)"
+DSM_VER="$(/bin/get_key_value /etc/VERSION majorversion).$(/bin/get_key_value /etc/VERSION minorversion)"
+MAJOR_KVER=$(echo $LINUX_VER |cut -d '.' -f1)
 }
 
 function prepare_eudev() {
@@ -16,11 +18,16 @@ echo "Copying kmod,tar to /bin/"
 echo "link depmod to kmod"
 ln -s /bin/kmod /usr/sbin/depmod
 echo "Extracting modules"
-tar xfz /exts/all-modules/${TARGET_PLATFORM}-${LINUX_VER}.tgz -C /lib/modules/
-mkdir /lib/firmware
+   if [ $MAJOR_KVER -gt 4 ] ; then
+   tar xfz /exts/all-modules/${TARGET_PLATFORM}-${DSM_VER}-${LINUX_VER}.tgz -C /lib/modules/
+   else
+   tar xfz /exts/all-modules/${TARGET_PLATFORM}-${LINUX_VER}.tgz -C /lib/modules/
+   fi
+mkdir -p /lib/firmware
 echo "Extracting firmware"
 tar xfz /exts/all-modules/firmware.tgz -C /lib/firmware/
-/usr/sbin/depmod -a
+echo "Running depmod"
+/usr/sbin/depmod -a 2>&1 > /dev/null
 }
 
 function checkforsas() {
